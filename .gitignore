@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 .vscode/
-.env
 *.log
 *.sqlite3
 *.csv
@@ -10,3 +9,4 @@ __pycache__/
 *.dot
 *.png
 *.db
+.env
