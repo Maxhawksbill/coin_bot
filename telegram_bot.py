@@ -116,7 +116,7 @@ async def track(update: Update, context: CallbackContext):
     symbols = context.args
     logger.info(f"Tracking started for: {', '.join(symbols)}")
     if not symbols:
-        await update.message.reply_text("Usage: /track BTC ETH")
+        await update.message.reply_text("Choose a coin")
         return
     
     with conn:
